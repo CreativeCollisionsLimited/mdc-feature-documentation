@@ -1,4 +1,4 @@
-# VAT Number validation
+# VAT validation
 ##### A feature to validate a company's VAT number
 
 Planned features:
