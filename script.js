@@ -30,8 +30,14 @@ new Docute({
 
             ]
         },
-
+        {
+            title: 'HS Classification',
+            links: [
+                {
+                  link: '/hs-classification/hs_classification',
+                },
+            ]
+        },
     ],
-
 
 });
