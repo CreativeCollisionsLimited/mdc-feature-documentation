@@ -34,7 +34,8 @@ new Docute({
             title: 'HS Classification',
             links: [
                 {
-                  link: '/hs-classification/hs_classification',
+                  title: 'Hs code finder',
+                  link: '/hs-classification/hs_finder',
                 },
             ]
         },
