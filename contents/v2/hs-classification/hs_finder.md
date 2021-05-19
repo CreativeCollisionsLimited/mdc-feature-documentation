@@ -2,7 +2,7 @@
 ##### A feature to help you find an appropriate Harmonized System Code based on a description.
 
 ## What is a Hs Code?
-Is basically a number which classify internationally traded products. The Hs code is divided into sections, chapters, headings, and subheadings.
+Is a number that classify internationally traded products. The Hs code is divided into sections, chapters, headings, and subheadings.
 For example, "1006209400". The first two digits corresponds to the section and chapter. In this case, the section is Vegetable Products (section 1), and the Chapter is Cereals (10). 
 The next two digits corresponds to the headings. In this case, "06" that is Rice. The next two digits corresponds to the subheading, which "20" is "Husked (brown) rice". 
 The last four digits are no more subdivided and give the final information to identify more specifically his kind and tariff. In here, "9400" classify it as "Medium grain".
