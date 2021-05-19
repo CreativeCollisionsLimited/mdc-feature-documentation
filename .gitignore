@@ -4,3 +4,9 @@
 #Node modules
 /node_modules/
 /node_modules/*
+
+#Editor files
+.buildpath
+.project
+.settings/*
+
