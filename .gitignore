@@ -1,5 +1,6 @@
 #Editor
-.idea/
+.idea/*
+/.idea/
 
 #Node modules
 /node_modules/
@@ -9,4 +10,4 @@
 .buildpath
 .project
 .settings/*
-
+/.settings/*
