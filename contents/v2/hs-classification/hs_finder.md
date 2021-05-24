@@ -2,6 +2,7 @@
 ##### A feature to help you find an appropriate Harmonized System Code based on a description.
 
 ## What is a Hs Code?
+
 Harmonized System (HS) Codes are commonly used throughout the export process for goods. The Harmonized System is a standardized numerical method of classifying traded products. It is used by customs authorities around the world to identify products when assessing duties and taxes and for gathering statistics.
 
 The HS code can be described as follows:
@@ -20,6 +21,7 @@ For example, "1006209400".
 - The next two digits corresponds to the headings. In this case, "06" that is Rice. The next two digits corresponds to the subheading, which "20" is "Husked (brown) rice".
 - The last four digits are no more subdivided and give the final information to identify more specifically his kind and tariff. In here, "9400" classify it as "Medium grain".
 - The last four digits are no more subdivided and give the final information to identify more specifically his kind and tariff. In here, "9400" classify it as "Medium grain".
+
 
 ## Client site
 On the Consumer site, click on Hs Classification menu option:
