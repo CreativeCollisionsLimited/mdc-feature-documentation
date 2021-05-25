@@ -30,8 +30,19 @@ new Docute({
 
             ]
         },
-
+        {
+            title: 'HS Classification',
+            links: [
+                {
+                  title: 'Code Finder',
+                  link: '/hs-classification/hs_finder',
+                },
+                {
+                    title: 'Classification History',
+                    link: '/hs-classification/hs_classification_history',
+                },
+            ]
+        },
     ],
-
 
 });
