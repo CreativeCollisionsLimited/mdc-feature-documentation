@@ -55,5 +55,62 @@ src="images/hs_classification_hscode_selected.png"
 width="200"
 />
 
+## API endpoint
+Given a description is possible to search for hs codes via API Request. Send your `GET` request with a `Bearer Token` within the header to the following URL:
+
+```url
+{{url}}/v2/hs/codes-by-description/{{description}}
+```
+
+Your request will return in case of:
+
+### - Success:
+Response with status: `200`
+A Json text corresponding to a list which each element has the following properties:
+- description `string`
+- code `string`
+- heading `string`
+- chapter `string`
+- keywords `string`
+- term `string`
+- has_children `string`
+
+```json
+{
+  "description": "Whiskies",
+  "code": "2208300000",
+  "heading": "2208300000",
+  "chapter": "BEVERAGES, SPIRITS AND VINEGAR",
+  "keywords": "whisky",
+  "term": "whisky",
+  "has_children": false
+}
+```
+
+### - Failed:
+Response with status: `204 No content`
+
+### - Unauthorized:
+Response with status: `401`
+```json
+{
+    "name": "Unauthorized",
+    "message": "Your request was made with invalid credentials.",
+    "code": 0,
+    "status": 401,
+    "type": "yii\\web\\UnauthorizedHttpException"
+}
+```
+
+> Please Note: if a company name is not supported or your request was not valid the name and the address fields will be `---` as a string.
+```json
+  ...
+  "name": "---",
+  "address": "---",
+  ...
+```
+
 ## Admin site
 - This Feature is not current available on the Admin side.
+
+
