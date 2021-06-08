@@ -19,7 +19,15 @@ new Docute({
     ],
 
     sidebar: [
-
+        {
+          title: 'Landed Cost Engine',
+            links: [
+                {
+                    title: 'Landed cost engine',
+                    link: '/landed-cost-engine/landed_cost_engine'
+                }
+            ]
+        },
         {
             title: 'IOSS',
             links: [
