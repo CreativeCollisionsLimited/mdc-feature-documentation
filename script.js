@@ -20,13 +20,8 @@ new Docute({
 
     sidebar: [
         {
-          title: 'Landed Cost Engine',
-            links: [
-                {
-                    title: 'Landed cost engine',
-                    link: '/landed-cost-engine/landed_cost_engine'
-                }
-            ]
+            title: 'Landed Cost Engine',
+            link: '/landed-cost-engine/landed_cost_engine'
         },
         {
             title: 'IOSS',
@@ -42,14 +37,18 @@ new Docute({
             title: 'HS Classification',
             links: [
                 {
-                  title: 'Code Finder',
-                  link: '/hs-classification/hs_finder',
+                    title: 'Code Finder',
+                    link: '/hs-classification/hs_finder',
                 },
                 {
                     title: 'Classification History',
                     link: '/hs-classification/hs_classification_history',
                 },
             ]
+        },
+        {
+            title: 'Bulk Classification',
+            link: '/bulk-classification/bulk_classification',
         },
     ],
 
