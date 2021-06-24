@@ -11,7 +11,7 @@ src="images/transit-routes/transit_routes_menu.png"
 width="200"
 />
 
-- If any route is already registered, it will be shown listed at this page. 
+- If any route is already registered, it will be shown listed at this page.
 
 <ImageZoom
 src="images/transit-routes/routes_page.png"
@@ -21,7 +21,7 @@ width="600"
 
 #### Adding A New Route
 
-- Click on the "new route" button
+- Click on the "new route" button. test
 - Fill the form
 - Click on the "save" button
 
@@ -30,7 +30,7 @@ src="images/transit-routes/new_route.png"
 :border="true"
 width="600"
 />
-  
+
 - You shall see your new added routed listed on the page.
 
 #### Deleting A Route
