@@ -3,7 +3,7 @@
 
 ## Client site
 
-`Customers page > Bulk Classification `
+ - Go to `Customers page > Bulk Classification `
 
 <ImageZoom
 src="images/bulk-classification/bulk_menu.png"
@@ -11,8 +11,7 @@ src="images/bulk-classification/bulk_menu.png"
 width="200"
 />
 
-<br/>
-Click on the "Choose file" and select a CSV type of file.
+ - Click on the "Choose file" and select a CSV type of file.
 
 <ImageZoom
 src="images/bulk-classification/choose_file.png"
@@ -20,8 +19,7 @@ src="images/bulk-classification/choose_file.png"
 width="500"
 />
 
-<br/>
-The file content must meet the following order:
+ - The file content must meet the following order:
 
 1. Description of the product
 2. Country of origin
@@ -36,8 +34,7 @@ src="images/bulk-classification/csv_file_template.png"
 width="400"
 />
 
-<br/>
-Then, click on the "Upload" button. It may take some minutes to process the whole file depending on the amount of records. Wait for a few seconds and refresh the page.
+ - Then, click on the "Upload" button. It may take some minutes to process the whole file depending on the amount of records. Wait for a few seconds and refresh the page.
 
 <ImageZoom
 src="images/bulk-classification/bulk_results.png"

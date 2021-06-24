@@ -26,7 +26,7 @@ For example, "1006209400".
 `Customers page > HS Classification`
 
 <ImageZoom
-src="images/hs_classification_menu_option.png"
+src="images/hs-classification/hs_classification_menu_option.png"
 :border="true"
 width="150"
 />
@@ -34,7 +34,7 @@ width="150"
 On the Hs Classification page, the user must select origin and destination countries and type a desciption in the search field. 
 
 <ImageZoom
-src="images/hs_classification_product_description.png"
+src="images/hs-classification/hs_classification_product_description.png"
 :border="true"
 width="400"
 />
@@ -42,7 +42,7 @@ width="400"
 By clicking on "HS Code" the system will show results based on the description with the taxes related to the destination country.
 
 <ImageZoom
-src="images/hs_classification_results.png"
+src="images/hs-classification/hs_classification_results.png"
 :border="true"
 width="400"
 />
@@ -50,7 +50,7 @@ width="400"
 Once selecting the code, the system will show the taxes related to the product and destination.
 
 <ImageZoom
-src="images/hs_classification_hscode_selected.png"
+src="images/hs-classification/hs_classification_hscode_selected.png"
 :border="true"
 width="200"
 />

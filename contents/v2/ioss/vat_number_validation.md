@@ -102,14 +102,14 @@ validate after pressing the `Validate EORI` button, and will result the followin
 
 ### Correct / Valid VAT number 
 <ImageZoom
-src="images/ioss_vat_correct.png"
+src="images/ioss/ioss_vat_correct.png"
 :border="true"
 width="300"
 />
 
 ### Incorrect / Invalid VAT number
 <ImageZoom
-src="images/ioss_vat_incorrect.png"
+src="images/ioss/ioss_vat_incorrect.png"
 :border="true"
 width="300"
 />

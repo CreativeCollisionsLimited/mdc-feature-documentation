@@ -20,10 +20,6 @@ new Docute({
 
     sidebar: [
         {
-            title: 'Landed Cost Engine',
-            link: '/landed-cost-engine/landed_cost_engine'
-        },
-        {
             title: 'IOSS',
             links: [
                 {
@@ -49,6 +45,34 @@ new Docute({
         {
             title: 'Bulk Classification',
             link: '/bulk-classification/bulk_classification',
+        },
+        {
+            title: 'Billing History',
+            link: '/billing/billing_history'
+        },
+        {
+            title: 'Users',
+            link: '/users/users'
+        },
+        {
+            title: 'Companies',
+            link: '/companies/companies',
+        },
+        {
+            title: 'Transit Routes',
+            link: '/transit-routes/transit_routes'
+        },
+        {
+            title: 'Consumers',
+            link: '/consumers/consumers'
+        },
+        {
+            title: 'Personal Information,',
+            link: '/personal-information/personal_information'
+        },
+        {
+            title: 'Landed Cost Engine',
+            link: '/landed-cost-engine/landed_cost_engine'
         },
     ],
 
