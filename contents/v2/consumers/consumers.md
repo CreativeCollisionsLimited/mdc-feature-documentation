@@ -1,7 +1,7 @@
 # Consumers
 #### Read information about your consumers
 
-### Admin Side
+### Admin portal
 
 - Go to `Admin home page > Consumers`
 
@@ -19,5 +19,5 @@ src="images/consumers/consumers_page.png"
 width="600"
 />
 
-### Client Side
+### Consumer portal
  - This features is not available on the client side.

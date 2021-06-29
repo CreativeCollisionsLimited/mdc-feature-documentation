@@ -1,8 +1,15 @@
 # Users
-##### Manage your system users. See, create, edit, and remove users. 
 
-## Admin Side
-- Go to `Admin home > Users`
+
+## What's User Management?
+
+User management enables admins to control user access and on-board and off-board users to and from the system’s resources. Subsequently, a directory service will then authenticate, authorise, and audit user access to the system’s resources based on what the company’s admin had dictated.
+
+This feature solves the problem of managing user access to various resources. For example, the admin team generally requires access to different features in the system compared to the finance team. Further, a normal consumer likely doesn’t need access to internal financial systems and vice versa.
+
+## Admin portal
+- A list with the users registered in the system is available on the menu "Users", on `Admin home > Users`
+Only admin can add or edit the user on this list.
 
 <ImageZoom
 src="images/users/users_menu.png"
@@ -10,9 +17,9 @@ src="images/users/users_menu.png"
 width="200"
 />
 
-#### List Of Users
+#### System Users
 
-- Entering on this page, you will be able to see listed if allowed by your role, the users from your company.
+- Once on this page, the admin can see user's information such as name, email, company, and role. It's also possible to add, edit, or delete users.
 
 <ImageZoom
 src="images/users/users_page.png"
@@ -20,10 +27,17 @@ src="images/users/users_page.png"
 width="600"
 />
 
-#### Creating A New User
+#### Creating a New User
 
 - Click on the "new user" button on the right side of the page
-- Fill the form with the new user data
+- Fill the form with the following fields:
+  - Full Name
+  - Email
+  - Role
+  - Password
+  - Confirm Password
+  - Company
+
 
 <ImageZoom
 src="images/users/new_user.png"
@@ -33,7 +47,7 @@ width="600"
 
 - Be sure to correctly fill the fields, and click on the "save" button.
 
-#### Editing A User
+#### Editing a User
 
 - Click on the button with the pencil icon next to listed user that will be edited:
 - Change the data as desired and hit the "save" button.
@@ -44,11 +58,11 @@ src="images/users/edit_user.png"
 width="600"
 />
 
-#### Removing A User
+#### Removing a User
 
 - Click on the button with the trash can icon next to listed user that will be deleted
 - An alert window will be displayed at the top of the screen to confirm your decision.
 - Confirm or cancel the action.
 
-## Client Side
+## Consumer portal
 - This feature is not available on the client side

@@ -1,9 +1,22 @@
 # Bulk Classification
-##### The Bulk Classification feature provides a way to classify many products at once.
 
-## Client site
 
- - Go to `Customers page > Bulk Classification `
+
+## What's the Bulk Classification?
+
+Bulk implies an aggregate that is impressively large, heavy, or numerous.
+
+The bulk upload using a spreadsheet  allows the user to collect information from  multiple locations in one place, and upload the data to verify multiple business locations at once.
+
+In this case, users must upload a file - find the template on the helpful information page, with the product description, country of origin, and country of destination.
+
+Once the upload is made, the system will process the file and return the HS Code for each product on the list.
+
+
+
+## Consumer portal
+
+ - Users are able to access the bulk classification on the `Consumer page > Bulk Classification `
 
 <ImageZoom
 src="images/bulk-classification/bulk_menu.png"
@@ -42,6 +55,8 @@ src="images/bulk-classification/bulk_results.png"
 width="600"
 />
 
-## Admin side
+- If necessary, it's possible to export the results list in CSV by clicking on the yellow button "Export to CSV".
+
+## Admin portal
 
 - This is feature is not available on the Admin side.

@@ -1,10 +1,16 @@
 # Billing History
-##### A page that displays all generated charges.
 
-A charge can be generated when, for instance, searches for harmonized codes, duties and taxes are made. The billing history page will list each of those charges.
-## Admin Side
 
- - Go to `Admin home > Billing History`
+## What's the Billing Page?
+
+This is a feature for the administrators and finance teams. It’s possible to track all the transactions made in the system and how much they cost.
+
+Each API request on the system generates a fee. The billing history displays the searches users have made in the system within a period of time. Besides the product information, each transaction shows who made it, when, and which APIs were called.
+
+
+## Admin portal
+
+ - Administrators and finance teams can find the billing history page on `Admin home > Billing History`
 
 <ImageZoom
 src="images/billing/billing_menu.png"
@@ -12,7 +18,7 @@ src="images/billing/billing_menu.png"
 width="200"
 />
 
-- At this page, every generated charged will be listed and identified:
+- This report displays all transactions made by the users. Each transaction has different API request, and the total amount is the sum of all the requests.
 
 <ImageZoom
 src="images/billing/billing_history_page.png"
@@ -28,5 +34,5 @@ src="images/billing/billing_history_filtered.png"
 width="600"
 />
 
-## Client Side
+## Consumer portal
  - This feature is not available on the client side.
