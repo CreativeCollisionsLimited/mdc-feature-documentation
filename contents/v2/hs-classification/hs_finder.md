@@ -16,25 +16,25 @@ The HS code can be described as follows:
 
 The Hs code is divided into sections, chapters, headings, and subheadings.
 
-For example, "1006209400". 
+For example, "1006209400".
 - The first two digits corresponds to the section and chapter. In this case, the section is Vegetable Products (section 1), and the Chapter is Cereals (10).
 - The next two digits corresponds to the headings. In this case, "06" that is Rice. The next two digits corresponds to the subheading, which "20" is "Husked (brown) rice".
 - The last four digits are no more subdivided and give the final information to identify more specifically his kind and tariff. In here, "9400" classify it as "Medium grain".
 
 
-## Client site
+## Consumer portal
 `Customers page > HS Classification`
 
 <ImageZoom
-src="images/hs_classification_menu_option.png"
+src="images/hs-classification/hs_classification_menu_option.png"
 :border="true"
 width="150"
 />
 
-On the Hs Classification page, the user must select origin and destination countries and type a desciption in the search field. 
+On the Hs Classification page, the user must select origin and destination countries and type a desciption in the search field.
 
 <ImageZoom
-src="images/hs_classification_product_description.png"
+src="images/hs-classification/hs_classification_product_description.png"
 :border="true"
 width="400"
 />
@@ -42,7 +42,7 @@ width="400"
 By clicking on "HS Code" the system will show results based on the description with the taxes related to the destination country.
 
 <ImageZoom
-src="images/hs_classification_results.png"
+src="images/hs-classification/hs_classification_results.png"
 :border="true"
 width="400"
 />
@@ -50,10 +50,65 @@ width="400"
 Once selecting the code, the system will show the taxes related to the product and destination.
 
 <ImageZoom
-src="images/hs_classification_hscode_selected.png"
+src="images/hs-classification/hs_classification_hscode_selected.png"
 :border="true"
 width="200"
 />
 
-## Admin site
+## API endpoint
+Given a description is possible to search for hs codes via API Request. Send your `GET` request with a `Bearer Token` within the header to the following URL:
+
+```url
+{{url}}/v2/hs/codes-by-description/{{description}}
+```
+
+Your request will return in case of:
+
+### - Success:
+Response with status: `200`
+A Json text corresponding to a list which each element has the following properties:
+- description `string`
+- code `string`
+- heading `string`
+- chapter `string`
+- keywords `string`
+- term `string`
+- has_children `string`
+
+```json
+{
+  "description": "Whiskies",
+  "code": "2208300000",
+  "heading": "2208300000",
+  "chapter": "BEVERAGES, SPIRITS AND VINEGAR",
+  "keywords": "whisky",
+  "term": "whisky",
+  "has_children": false
+}
+```
+
+### - Failed:
+Response with status: `204 No content`
+
+### - Unauthorized:
+Response with status: `401`
+```json
+{
+    "name": "Unauthorized",
+    "message": "Your request was made with invalid credentials.",
+    "code": 0,
+    "status": 401,
+    "type": "yii\\web\\UnauthorizedHttpException"
+}
+```
+
+> Please Note: if a company name is not supported or your request was not valid the name and the address fields will be `---` as a string.
+```json
+  ...
+  "name": "---",
+  "address": "---",
+  ...
+```
+
+## Admin portal
 - This Feature is not current available on the Admin side.
