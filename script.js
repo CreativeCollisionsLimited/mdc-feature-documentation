@@ -33,8 +33,12 @@ new Docute({
             title: 'HS Classification',
             links: [
                 {
-                    title: 'Code Finder',
+                    title: 'Manual Classification',
                     link: '/hs-classification/hs_finder',
+                },
+                {
+                    title: 'Bulk Classification',
+                    link: '/bulk-classification/bulk_classification',
                 },
                 {
                     title: 'Classification History',
@@ -43,37 +47,45 @@ new Docute({
             ]
         },
         {
-            title: 'Bulk Classification',
-            link: '/bulk-classification/bulk_classification',
-        },
-        {
-            title: 'Billing History',
-            link: '/billing/billing_history'
-        },
-        {
             title: 'Users',
-            link: '/users/users'
+            links: [
+                {
+                    title: 'Users',
+                    link: '/users/users'
+                },
+                {
+                    title: 'Consumers',
+                    link: '/consumers/consumers'
+                },
+                {
+                    title: 'Personal Information',
+                    link: '/personal-information/personal_information'
+                },
+
+            ]
         },
         {
-            title: 'Companies',
-            link: '/companies/companies',
+            title: 'Settings',
+            links: [
+                {
+                    title: 'Companies',
+                    link: '/companies/companies',
+                },
+                {
+                    title: 'Transit Routes',
+                    link: '/transit-routes/transit_routes'
+                },
+
+            ]
         },
         {
-            title: 'Transit Routes',
-            link: '/transit-routes/transit_routes'
-        },
-        {
-            title: 'Consumers',
-            link: '/consumers/consumers'
-        },
-        {
-            title: 'Personal Information,',
-            link: '/personal-information/personal_information'
-        },
-        {
-            title: 'Landed Cost Engine',
-            link: '/landed-cost-engine/landed_cost_engine'
+            title: 'Finance',
+            links: [
+                {
+                    title: 'Billing History',
+                    link: '/billing/billing_history'
+                },
+            ]
         },
     ],
-
 });
