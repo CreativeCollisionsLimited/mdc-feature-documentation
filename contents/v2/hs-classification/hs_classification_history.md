@@ -10,7 +10,7 @@ Select dates to search history by date range. Date range should include From Dat
 ## Download history in CSV formate
 Select dates to search history by date range. Date range should include From Date and To Date. Then click on "Export to CSV" to download history in csv format. Downloaded CSV will have limited information for user whereas full information for admin.
 
-## Client site
+## Consumer portal
 On the Consumer site, click on Hs Classification History menu option:
 
 Default all the histoy will be shown. List contains below:
@@ -20,7 +20,7 @@ Default all the histoy will be shown. List contains below:
 - [X] Country of destination
 - [X] Destination VAT
 - [X] Destination Duty
-- [X] Transit country 
+- [X] Transit country
 - [X] Transit VAT
 - [X] Transit Duty
 - [X] Prohibited item validation
@@ -30,7 +30,7 @@ Default all the histoy will be shown. List contains below:
 
 History log can be arrange by 10, 25,50 and 100 entries per page. Pagination available at the bottom.
 
-## Admin site
+## Admin portal
 On the admin site, click on Hs Classification Search History menu option:
 
 There is no input required to see the history. List contains below:
@@ -41,7 +41,7 @@ There is no input required to see the history. List contains below:
 - [X] Country of destination
 - [X] Destination VAT
 - [X] Destination Duty
-- [X] Transit country 
+- [X] Transit country
 - [X] Transit VAT
 - [X] Transit Duty
 - [X] Prohibited item validation

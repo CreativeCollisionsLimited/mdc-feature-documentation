@@ -6,12 +6,12 @@ Planned features:
 - [X] VAT number validation
 - [ ] Cache Service
 - [ ] Name Validation
-- [ ] Throttle 
+- [ ] Throttle
 - [ ] Zero Downtime
 
 ## What is a VAT number?
 
-Sometimes also known as a VAT registration number, 
+Sometimes also known as a VAT registration number,
 this is the unique number that identifies a taxable person (business) or non-taxable legal entity that is registered for VAT.
 
 
@@ -23,7 +23,7 @@ Each EU country uses [its own format of VAT identification number](http://ec.eur
 
 ## API endpoint
 
-[Endpoint documentation can be found here](https://documenter.getpostman.com/view/6991677/TVzUCFmy#d31a18fb-7572-47f7-9ee1-d327533e7e0b) 
+[Endpoint documentation can be found here](https://documenter.getpostman.com/view/6991677/TVzUCFmy#d31a18fb-7572-47f7-9ee1-d327533e7e0b)
 
 To validate a number via API request, you must send your `GET` request with a `Bearer Token` within the header to the following URL:
 
@@ -93,23 +93,23 @@ Response with status: `401`
 
 
 
-## Admin site
+## Admin portal
 
-`Admin Site > Parcel > New parcel` 
+`Admin Site > Parcel > New parcel`
 
 On the Admin site, while you creating a new parcel, you can enter your `EORI Number (Tax ID)` which will
 validate after pressing the `Validate EORI` button, and will result the following:
 
-### Correct / Valid VAT number 
+### Correct / Valid VAT number
 <ImageZoom
-src="images/ioss_vat_correct.png"
+src="images/ioss/ioss_vat_correct.png"
 :border="true"
 width="300"
 />
 
 ### Incorrect / Invalid VAT number
 <ImageZoom
-src="images/ioss_vat_incorrect.png"
+src="images/ioss/ioss_vat_incorrect.png"
 :border="true"
 width="300"
 />
@@ -118,6 +118,6 @@ width="300"
 
 
 
-## Client site
+## Consumer portal
 
 - This Feature Not yet implemented on the client side
