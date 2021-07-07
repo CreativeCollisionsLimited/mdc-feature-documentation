@@ -11,7 +11,7 @@ Given a hs code, a country of origin and destination, get all the duty informati
 - GET
 {{url}}/calculation/{hs_code}/{origin}/{destination}}
 
-e.g:
+e.g.
 eucal.ecomduty.com/calculation/0406200000/BR/GR
 ```
 
@@ -111,7 +111,7 @@ eucal.ecomduty.com/calculation/0406200000/BR/GR
 `Failed to get records for the provided information`
   
 #### Geo Areas
-Get the name and language of every geographic area.
+Get the name and language of all geographic area.
 
 ```url
 - GET
@@ -446,8 +446,6 @@ eucal.ecomduty.com/loc/countries
 
 #### - Failed:
 - Response with status: `400`
-- A string message:
-  `Failed to get records for the provided information`
 
 #### Geo Area
 Given a geographic area code, get the name, language, and countries that belong to it.
@@ -916,8 +914,7 @@ eucal.ecomduty.com/prohibited-check/9306901000/KP/IE
 
 #### - Failed:
 - Response with status: `400`
-- A string message:
-  `Failed to get records for the provided information`
+- A boolean value: `false`
 
 [comment]: <> (## Admin site
 `Admin page > Parcels`)
