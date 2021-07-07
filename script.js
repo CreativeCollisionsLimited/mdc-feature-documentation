@@ -67,7 +67,7 @@ new Docute({
             link: '/consumers/consumers'
         },
         {
-            title: 'Personal Information,',
+            title: 'Personal Information',
             link: '/personal-information/personal_information'
         },
         {
