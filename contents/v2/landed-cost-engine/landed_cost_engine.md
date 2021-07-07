@@ -8,7 +8,7 @@
 Given a hs code, a country of origin and destination, get all the duty information for that product and route.
 
 ```url
--GET
+- GET
 {{url}}/calculation/{hs_code}/{origin}/{destination}}
 
 e.g:
@@ -104,12 +104,21 @@ eucal.ecomduty.com/calculation/0406200000/BR/GR
   ]
 }
 ```
+
+#### - Failed:
+- Response with status: `400`
+- A string message:
+`Failed to get records for the provided information`
+  
 #### Geo Areas
 Get the name and language of every geographic area.
 
 ```url
--GET
+- GET
 {{url}}/loc/geo_areas
+
+e.g.
+eucal.ecomduty.com/loc/geo_areas
 ```
 #### - Success:
 - Response with status: `200`
@@ -177,8 +186,11 @@ Get the name and language of every geographic area.
 Given a country code, get the name, language, and the geographic area(s) to which that country belongs.
 
 ```url
--GET
-{{url}}/loc/country/eu
+- GET
+{{url}}/loc/country/{{country_code}}
+
+e.g.
+eucal.ecomduty.com/loc/country/eu
 ```
 #### - Success:
 - Response with status: `200`
@@ -332,11 +344,17 @@ Given a country code, get the name, language, and the geographic area(s) to whic
 }
 ```
 
+#### - Failed:
+- Response with status: `404`
+
 #### Countries
 Get the name, country code, and language of all countries.
 ```url
--GET
+- GET
 {{url}}/loc/countries
+
+e.g.
+eucal.ecomduty.com/loc/countries
 ```
 #### - Success:
 - Response with status: `200`
@@ -426,11 +444,19 @@ Get the name, country code, and language of all countries.
 ]
 ```
 
+#### - Failed:
+- Response with status: `400`
+- A string message:
+  `Failed to get records for the provided information`
+
 #### Geo Area
 Given a geographic area code, get the name, language, and countries that belong to it.
 ```url
--GET
-{{url}}/loc/geo_area/1005
+- GET
+{{url}}/loc/geo_area/{{geo_area_code}}
+
+e.g.
+eucal.ecomduty.com/loc/geo_area/1005
 ```
 #### - Success:
 - Response with status: `200`
@@ -465,11 +491,17 @@ Given a geographic area code, get the name, language, and countries that belong 
 }
 ```
 
+#### - Failed:
+- Response with status: `404`
+
 #### Conditions
 Given a hs code, get the conditions that apply to it.
 ```url
--GET
-{{url}}/meas/conditions/0101290000
+- GET
+{{url}}/meas/conditions/{{hs_code}}
+
+e.g.
+eucal.ecomduty.com/meas/conditions/0101290000
 ```
 #### - Success:
 - Response with status: `200`
@@ -866,6 +898,26 @@ Given a hs code, get the conditions that apply to it.
     ]
 }
 ```
+
+#### - Failed:
+- Response with status: `404`
+
+#### Prohibited
+```url
+- GET
+{{url}}/prohibited-check/{{hs_code}}/{{origin_country_code}}/{{destination_country_code}}
+
+e.g.
+eucal.ecomduty.com/prohibited-check/9306901000/KP/IE
+```
+#### - Success:
+- Response with status: `200`
+- A boolean value: `true`
+
+#### - Failed:
+- Response with status: `400`
+- A string message:
+  `Failed to get records for the provided information`
 
 [comment]: <> (## Admin site
 `Admin page > Parcels`)
