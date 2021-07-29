@@ -74,6 +74,24 @@ new Docute({
             title: 'Landed Cost Engine',
             link: '/landed-cost-engine/landed_cost_engine'
         },
+        {
+            title: 'API-requirements',
+            links: [
+                {
+                    title: 'Prohibited Goods Check',
+                    link: '/api_requirements/prohibited',
+                },
+                {
+                    title: 'HS Classification',
+                    link: '/api_requirements/classification',
+                },
+                {
+                    title: 'LCC',
+                    link: '/api_requirements/lcc'
+                },
+
+            ]
+        },
     ],
 
 });
